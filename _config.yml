@@ -1,2 +1,4 @@
 name: Mitchell Beare
 markdown: kramdown
+
+theme: jekyll-theme-slate
