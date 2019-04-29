@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!--Import Google Icon Font-->
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <!--Import materialize.css-->
+       <link type="text/css" rel="stylesheet" href="/..assets/css/materialize.css"  media="screen,projection"/>
+		</head>
+		<body>
+			<nav class="teal darken-3 z-depth-2">
+				<div class="nav-wrapper">
+					<a href="/" class="brand-logo right">To be Logo'ed</a>
+	    		<ul id="nav-mobile" class="left hide-on-med-and-down">
+	        		<li><a href="/">Home</a></li>
+              <li><a href="pages/about">About</a></li>
+              <li><a href="pages/portfolio">Portfolio</a></li>
+	        		<li><a href="pages/cv">CV</a></li>
+	    		</ul>
+				</div>
+			</nav>
+
+			<div class="container">
+
+			{{ content }}
+
+			</div>
+
+			<footer class="page-footer teal darken-3">
+				<div class="container">
+					<div class="row">
+						<div class="col s3">
+							<a class="grey-text text-lighten-3" href="/">Mitchell Beare</a>
+							<br>
+							<a class="grey-text text-lighten-3" href="/">Programmer</a>
+						</div>
+					<div class="col s3">
+						<p>Queensland, Australia</p>
+					</div>
+					<div class="col s3">
+						<a class="grey-text text-lighten-3" href="tel:0434052203">0434 052 203</a>
+						<br>
+						<a class="grey-text text-lighten-3" href="mailto:MitchellBeare@gmail">MitchellBeare@gmail.com</a>
+					</div>
+					<div class="col s3">
+						<ul>
+							<!-- todo: change the links to icons for aesthetic -->
+							<li><a class="grey-text text-lighten-3" href="https://github.com/mitchbeare">Github</a></li>
+							<li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/mitchell-beare-0002b6151/">Linkedin</a></li>
+							<li><a class="grey-text text-lighten-3" href="https://www.facebook.com/mitchell.beare.1">Facebook</a></li>
+						</ul>
+					</div>
+				</div>
+				</div>
+				<div class="footer-copyright teal darken-4">
+					<div class="container">
+						Created using Materialize, last updated 29/04/2019
+					</div>
+				</div>
+			</footer>
+			<script type="text/javascript" src="../assets/js/materialize.js"></script>
+		</body>
+	</html>
