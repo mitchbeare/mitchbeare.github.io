@@ -2,14 +2,14 @@
 layout: projects
 title: Mitchell's Projects
 ---
-<h1>Latest Projects</h1>
+<h1 class="center-align">My Projects</h1>
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <div class="card-panel z-depth-3 cyan lighten-4">
+      <div class="card-panel z-depth-3 blue-grey lighten-4">
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
+      <p class="flow-text">{{ post.excerpt }}</p>
       </div>
     </li>
   {% endfor %}
