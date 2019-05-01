@@ -2184,7 +2184,6 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  margin: 0;
 }
 
 /**
@@ -2219,7 +2218,6 @@ figure,
 main {
   /* 1 */
   flex: 1 0 auto;
-  display: block;
 }
 
 /**
