@@ -1,3 +1,9 @@
+ul.twocolumns {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
 /*!
  * Materialize v1.0.0 (http://materializecss.com)
  * Copyright 2014-2017 Materialize

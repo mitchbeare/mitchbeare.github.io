@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Bulls and Cows'
-date: '2019-04-30 - '
+date: '2019-05-01 '
 categories: projects
 ---
 
