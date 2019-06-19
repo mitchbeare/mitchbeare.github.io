@@ -7,7 +7,7 @@ categories: projects
 
 Learning to develop I have been told frequently that I should begin building a portfolio that in future can be reference for my accomplishments.
 Brainstorming on what I should do to rememdy this I decided why don't I build something showcase worthy!
-
+<!--More-->
 To host this site I am making use to github's <a href="https://pages.github.com/">pages</a> service. To obtain my custom URL I quickly hopped over to <a href="https://domains.google/#/">Google Domains </a> and setup my custom hostname.
 After that quick 10 minutes of work I was there, I had a site that was live on the internet now to populate it.
 
