@@ -2,7 +2,6 @@
 layout: projects
 title: Mitchell's Projects
 ---
-<h1 class="center-align">My Projects</h1>v
 <script>
     document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
@@ -10,6 +9,8 @@ title: Mitchell's Projects
   });
 </script>
 
+<h1 class="center-align">My Projects</h1>
+<div class="container">
 <div class="carousel">
   
  {% for post in site.posts %}
@@ -21,4 +22,5 @@ title: Mitchell's Projects
   </a>
   {% endfor %}
   
+</div>
 </div>
