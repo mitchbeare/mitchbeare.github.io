@@ -2,15 +2,23 @@
 layout: projects
 title: Mitchell's Projects
 ---
-<h1 class="center-align">My Projects</h1>
+<h1 class="center-align">My Projects</h1>v
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
+</script>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <div class="card-panel z-depth-3 blue-grey lighten-4">
+<div class="carousel">
+  
+ {% for post in site.posts %}
+  <a class="carousel-item" href="{{ post.url }}">
+    <div class="card-panel z-depth-3 blue-grey lighten-4">
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p class="flow-text">{{ post.excerpt }}</p>
-      </div>
-    </li>
+    </div>
+  </a>
   {% endfor %}
-</ul>
+  
+</div>
