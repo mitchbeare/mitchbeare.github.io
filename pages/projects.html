@@ -10,17 +10,10 @@ title: Mitchell's Projects
 </script>
 
 <h1 class="center-align">My Projects</h1>
-<div class="container">
 <div class="carousel">
   
  {% for post in site.posts %}
-  <a class="carousel-item" href="{{ post.url }}">
-    <div class="card-panel z-depth-3 blue-grey lighten-4">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="flow-text">{{ post.excerpt }}</p>
-    </div>
-  </a>
-  {% endfor %}
+  <a class="carousel-item" href="{{ post.url }}"></a>
+ {% endfor %}
   
-</div>
 </div>
