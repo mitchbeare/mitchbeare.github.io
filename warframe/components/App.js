@@ -4,11 +4,9 @@ class App extends React.Component{
             <div className="pagecontent">
                 <h1> Hello from React to Warframe </h1>
             </div>
-        )
+        );
     }
 }
 
-ReactDOM.render(
-    <App />,
-    document.getElementById('root')
+ReactDOM.render( React.createElement(App,document.getElementById('root'))
 );
