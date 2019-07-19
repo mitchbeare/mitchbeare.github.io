@@ -1,3 +1,12 @@
+/*
+Umbra color pallete
+Primary: #575B5C
+Secondary: #363A3B
+Tertiary: #929596
+Accents: #DAD066
+Energy: #DAD066
+*/
+
 #root{
     background-color: #929596;
     height: 100vh;
