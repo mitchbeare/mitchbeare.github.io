@@ -10,6 +10,7 @@ class DailyTasks extends React.Component{
     render(){
         return(
             <div>
+                <h1>Daily Checklist</h1>
                 <ul>
                     <li> Hello List</li>
                 </ul>
