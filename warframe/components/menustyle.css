@@ -1,0 +1,15 @@
+.menu {
+    background: #333
+}
+
+li {
+        background: #333
+    }
+
+&:hover {
+    background: lighten(#333, 10%)
+}
+
+a {
+    color: #fff
+}
