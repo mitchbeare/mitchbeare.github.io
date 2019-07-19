@@ -10,5 +10,3 @@ class WarMenu extends React.Component{
         )
     }
 }
-
-export default WarMenu
