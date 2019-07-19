@@ -2,7 +2,7 @@ class BegginerList extends React.Component {
   constructor(props) {
     super(props);
     this.state = { listitems: [] };
-    let list = intializeList();
+    let list = this.intializeList();
   }
 
   intializeList() {
