@@ -17,8 +17,8 @@ class App extends React.Component{
                     </div>
                     <div className="cell-6">
                         <ol>
-                            <li><input id="item1" type="checkbox"><label for="item1">Complete Vor's Prize Quest</label></li>
-                            <li><input id="item2" type="checkbox"><label for="item2">Complete All missions on Earth</label></li>
+                            <li><input id="item1" type="checkbox" /><label for="item1">Complete Vor's Prize Quest</label></li>
+                            <li><input id="item2" type="checkbox" /><label for="item2">Complete All missions on Earth</label></li>
                         </ol>
                     </div>
                 </div>
