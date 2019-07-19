@@ -1,7 +1,10 @@
 class DailyTasks extends React.Component{
     state = {tasks: [
         {syndicate: false},
-        {cephalon: false}
+        {cephalon: false},
+        {sorties: false},
+        {cetus: false},
+        {orbvallis: false},
     ]}
 
     render(){

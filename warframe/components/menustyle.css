@@ -4,8 +4,12 @@
     width: 100vw;
     color: #DAD066;
 }
-
+#menuarea{
+    position: absolute;
+}
 .menu {
+    position: relative;
+    top: -10;
     background: #363A3B;
     padding: 24px;
     border-radius: 10px;
