@@ -1,5 +1,3 @@
-import './menustyle.css'
-
 class WarMenu extends React.Component{
     render(){
         return(
@@ -7,6 +5,6 @@ class WarMenu extends React.Component{
                 <li>Item one</li>
                 <li>Item two</li>
             </ul>
-        )
+        );
     }
 }
