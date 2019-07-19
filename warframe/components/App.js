@@ -121,6 +121,9 @@ class App extends React.Component {
               </li>
             </ol>
           </div>
+          <div className="cell-6">
+            <BegginerList />
+          </div>
         </div>
       </div>
     );
