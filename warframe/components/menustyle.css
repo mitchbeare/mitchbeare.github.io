@@ -14,10 +14,10 @@ Energy: #DAD066
   color: #dad066;
 }
 #menuarea {
-  position: absolute;
+  position: relative;
 }
 .menu {
-  position: relative;
+  position: absolute;
   top: -10;
   background: #363a3b;
   padding: 24px;
