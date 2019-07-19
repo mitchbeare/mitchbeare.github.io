@@ -2,12 +2,12 @@ import './menustyle.css'
 
 class Menu extends React.Component{
     render(){
-        return(){
+        return(
             <ul className="menu">
                 <li>Item one</li>
                 <li>Item two</li>
             </ul>
-        }
+        )
     }
 }
 

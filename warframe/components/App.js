@@ -1,4 +1,4 @@
-import Menu from './menu.js';
+//import Menu from './menu.js';
 
 class App extends React.Component{
     render(){
