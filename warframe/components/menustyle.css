@@ -1,15 +1,19 @@
+#root{
+    background-color: #282A2D;
+}
+
 .menu {
-    background: #333
+    background: #333;
 }
 
 li {
-        background: #333
+        background: #333;
     }
 
 &:hover {
-    background: lighten(#333, 10%)
+    background: lighten(#333, 10%);
 }
 
 a {
-    color: #fff
+    color: #fff;
 }
