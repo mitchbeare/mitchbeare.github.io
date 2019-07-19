@@ -7,7 +7,10 @@ class App extends React.Component{
                 <WarMenu />
                 <div className="grid-x">
                     <div className="cell">
-                        <h1> Hello from React to Warframe </h1>
+                        <h1> My Site Where I do stuff. </h1>
+                    </div>
+                    <div className="cell">
+                        <DailyTasks />
                     </div>
                 </div>
             </div>
