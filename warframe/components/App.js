@@ -1,7 +1,7 @@
 class App extends React.Component {
   state = { checkboxstate: [{ item1: false }, { item2: false }] };
 
-  saveCheck(id, e) {
+  saveCheck(e) {
     e.preventDefault();
     console.log(e, 'event info');
     console.log(id, 'id of object');
@@ -27,7 +27,7 @@ class App extends React.Component {
                 <input
                   id="item1"
                   type="checkbox"
-                  onClick={e => this.saveCheck(id, e)}
+                  onClick={e => this.saveCheck(e)}
                 />
                 <label for="item1">Complete Vor's Prize Quest</label>
               </li>
@@ -35,7 +35,7 @@ class App extends React.Component {
                 <input
                   id="item2"
                   type="checkbox"
-                  onClick={e => this.saveCheck(id, e)}
+                  onClick={e => this.saveCheck(e)}
                 />
                 <label for="item2">Complete All missions on Earth</label>
               </li>
@@ -43,7 +43,7 @@ class App extends React.Component {
                 <input
                   id="item3"
                   type="checkbox"
-                  onClick={e => this.saveCheck(id, e)}
+                  onClick={e => this.saveCheck(e)}
                 />
                 <label for="item3">Farm Mods from Earth</label>
                 <ul>
@@ -51,7 +51,7 @@ class App extends React.Component {
                     <input
                       id="earthitem1"
                       type="checkbox"
-                      onClick={e => this.saveCheck(id, e)}
+                      onClick={e => this.saveCheck(e)}
                     />
                     <label for="earthitem1">
                       Ivara systems blue print from Cambria. (third vault 9.09%
@@ -62,7 +62,7 @@ class App extends React.Component {
                     <input
                       id="earthitem2"
                       type="checkbox"
-                      onClick={e => this.saveCheck(id, e)}
+                      onClick={e => this.saveCheck(e)}
                     />
                     <label for="earthitem2">
                       Farm Vicious Frost from Cambria. (third vault 9.09%
@@ -73,7 +73,7 @@ class App extends React.Component {
                     <input
                       id="earthitem3"
                       type="checkbox"
-                      onClick={e => this.saveCheck(id, e)}
+                      onClick={e => this.saveCheck(e)}
                     />
                     <label for="earthitem3">
                       Farm Volcanic edge from Cambria. (third vault 9.09%
@@ -84,7 +84,7 @@ class App extends React.Component {
                     <input
                       id="earthitem4"
                       type="checkbox"
-                      onClick={e => this.saveCheck(id, e)}
+                      onClick={e => this.saveCheck(e)}
                     />
                     <label for="earthitem4">
                       Farm Hornet strike from Cambria. (third vault 9.09%
@@ -101,7 +101,7 @@ class App extends React.Component {
                     <input
                       id="earthitem6"
                       type="checkbox"
-                      onClick={e => this.saveCheck(id, e)}
+                      onClick={e => this.saveCheck(e)}
                     />
                     <label for="earthitem6">
                       Farm Intensify from Everest. (third excavator 8.33%
@@ -114,7 +114,7 @@ class App extends React.Component {
                 <input
                   id="item4"
                   type="checkbox"
-                  onClick={e => this.saveCheck(id, e)}
+                  onClick={e => this.saveCheck(e)}
                 />
                 <label for="item4">
                   Unlock and complete the Venus junction
