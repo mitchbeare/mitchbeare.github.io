@@ -1,6 +1,6 @@
 import './menustyle.css'
 
-class Menu extends React.Component{
+class WarMenu extends React.Component{
     render(){
         return(
             <ul className="menu">
@@ -11,4 +11,4 @@ class Menu extends React.Component{
     }
 }
 
-export default Menu
+export default WarMenu
