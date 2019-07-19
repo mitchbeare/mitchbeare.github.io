@@ -4,7 +4,6 @@ class App extends React.Component {
   saveCheck(e) {
     e.preventDefault();
     console.log(e, 'event info');
-    console.log(id, 'id of object');
   }
 
   render() {
