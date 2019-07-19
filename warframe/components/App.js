@@ -19,6 +19,7 @@ class App extends React.Component{
                         <ol>
                             <li><input id="item1" type="checkbox" /><label for="item1">Complete Vor's Prize Quest</label></li>
                             <li><input id="item2" type="checkbox" /><label for="item2">Complete All missions on Earth</label></li>
+                            <li><input id="item3" type="checkbox" /><label for="item3">Farm Mods from Earth Spy</label></li>
                         </ol>
                     </div>
                 </div>
