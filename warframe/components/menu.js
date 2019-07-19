@@ -1,10 +1,12 @@
 class WarMenu extends React.Component{
     render(){
         return(
-            <ul className="menu">
-                <li>Item one</li>
-                <li>Item two</li>
-            </ul>
+            <div id="menuarea">
+                <ul className="menu">
+                    <li><a>Item one</a></li>
+                    <li><a>Item two</a></li>
+                </ul>
+            </div>
         );
     }
 }
