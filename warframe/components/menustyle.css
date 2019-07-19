@@ -1,23 +1,24 @@
 #root{
-    background-color: #858BA4;
+    background-color: #929596;
     height: 100vh;
     width: 100vw;
+    color: #DAD066;
 }
 
 .menu {
-    background: #00020A;
+    background: #363A3B;
     padding: 24px;
     border-radius: 10px;
 }
 
 li {
-        background: #00020A;
+        background: #363A3B;
     }
 
 &:hover {
-    background: lighten(#00020A, 20%);
+    background: lighten(#363A3B, 20%);
 }
 
 a {
-    color: #FFE900;
+    color: #929596;
 }
