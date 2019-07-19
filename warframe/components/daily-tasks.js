@@ -4,11 +4,6 @@ class DailyTasks extends React.Component{
         cephalon: false
     ]}
 
-    let elementlist = tasks.map(function(task){
-        return <li>task</li>
-    }
-
-    )
     render(){
         return(
             <div>
