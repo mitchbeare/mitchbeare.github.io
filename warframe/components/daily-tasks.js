@@ -27,9 +27,7 @@ class DailyTasks extends React.Component {
       <div>
         <h1>Daily Checklist</h1>
         <ul>
-          {this.state.objectives.map(item => (
-            <li>{item}</li>
-          ))}
+          <li>Placeholder</li>
         </ul>
         <button type="button" onClick={this.buttonClicked()}>
           test
