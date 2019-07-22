@@ -28,7 +28,9 @@ class DailyTasks extends React.Component {
         <h1>Daily Checklist</h1>
         <ul>
           <li> Hello List</li>
-          <button onClick={this.buttonClicked()} />
+          <button type="button" onClick={this.buttonClicked()}>
+            test
+          </button>
         </ul>
       </div>
     );
