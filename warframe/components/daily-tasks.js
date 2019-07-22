@@ -1,5 +1,5 @@
 class DailyTasks extends React.Component {
-  constructor() {
+  constructor(props) {
     super(props);
     loadData();
     this.state = {};
