@@ -1,0 +1,13 @@
+{
+  "objectives": [
+    { "Nightwave": false },
+    { "SyndicateRep": false },
+    { "CetusRep": false },
+    { "OrbVallisRep": false },
+    { "CephalonSimarusMission": false },
+    { "CephalonSimarusRep": false },
+    { "QuillsRep": false },
+    { "Invasions": false },
+    { "Alerts": false }
+  ]
+}

@@ -1,20 +1,25 @@
-class DailyTasks extends React.Component{
-    state = {tasks: [
-        {syndicate: false},
-        {cephalon: false},
-        {sorties: false},
-        {cetus: false},
-        {orbvallis: false},
-    ]}
+class DailyTasks extends React.Component {
+  constructor() {
+    super(props);
+    loadData();
+    this.state = {};
+  }
 
-    render(){
-        return(
-            <div>
-                <h1>Daily Checklist</h1>
-                <ul>
-                    <li> Hello List</li>
-                </ul>
-            </div>
-        )
-    }
+  loadData() {
+    jQuery.getJSON('./data/dailies.json', function(data) {
+      console.log(data);
+      var objectives = [];
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>Daily Checklist</h1>
+        <ul>
+          <li> Hello List</li>
+        </ul>
+      </div>
+    );
+  }
 }
