@@ -7,6 +7,12 @@ Accents: #DAD066
 Energy: #DAD066
 */
 
+.dailycard {
+  width: 300px;
+  background-color: #575b5c;
+  border-radius: 2%;
+}
+
 #root {
   background-color: #929596;
   height: 100vh;

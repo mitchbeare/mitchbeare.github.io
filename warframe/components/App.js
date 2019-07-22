@@ -10,12 +10,12 @@ class App extends React.Component {
     return (
       <div>
         <WarMenu />
-        <div className="contentArea">
-          <div className="grid-x">
-            <div className="cell">
+        <div className="grid-container">
+          <div className="grid-x grid-margin-x">
+            <div className="cell large-offset-2">
               <h1> My Site Where I do stuff. </h1>
             </div>
-              <DailyTasks />
+            <DailyTasks />
             <hr />
             <div className="cell">
               <BegginerList />
