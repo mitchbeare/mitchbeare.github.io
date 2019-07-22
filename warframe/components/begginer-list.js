@@ -16,6 +16,6 @@ class BegginerList extends React.Component {
   }
 
   render() {
-    <div>{list}</div>;
+    <div>temporary disabling</div>;
   }
 }
