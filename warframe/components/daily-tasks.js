@@ -2,7 +2,6 @@ class DailyTasks extends React.Component {
   constructor(props) {
     super(props);
     this.state = this.loadData();
-    console.log(this.state);
   }
 
   loadData() {
@@ -19,12 +18,17 @@ class DailyTasks extends React.Component {
     //todo: Function to update JSON from website if changed.
   }
 
+  buttonClicked() {
+    console.log(this.state);
+  }
+
   render() {
     return (
       <div>
         <h1>Daily Checklist</h1>
         <ul>
           <li> Hello List</li>
+          <button onClick={this.buttonClicked()} />
         </ul>
       </div>
     );
