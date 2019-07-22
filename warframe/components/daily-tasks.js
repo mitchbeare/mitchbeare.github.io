@@ -1,14 +1,13 @@
 class DailyTasks extends React.Component {
   constructor(props) {
     super(props);
-    this.loadData();
-    this.state = {};
+    this.state = this.loadData();
+    console.log(state);
   }
 
   loadData() {
     jQuery.getJSON('/warframe/data/dailies.json', function(data) {
-      console.log(data);
-      var objectives = [];
+      return data;
     });
   }
 
