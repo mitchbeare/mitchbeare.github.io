@@ -1,13 +1,21 @@
 class DailyTasks extends React.Component {
   constructor(props) {
     super(props);
-    this.state = this.loadData();
+    this.state = this.loadData('/warframe/data/dailies.json');
   }
 
-  loadData() {
-    jQuery.getJSON('/warframe/data/dailies.json', function(data) {
-      return data;
+  loadData(url) {
+    var json = null;
+    jQuery.ajax({
+      async: false,
+      global: false,
+      url: url,
+      dataType: 'json',
+      success: function(data) {
+        json = data;
+      }
     });
+    return json;
   }
 
   checkData() {
@@ -18,19 +26,46 @@ class DailyTasks extends React.Component {
     //todo: Function to update JSON from website if changed.
   }
 
-  buttonClicked() {
-    console.log(this.state);
-  }
+  resetClicked = e => {
+    e.preventDefault();
+    console.log('reset was clicked');
+  };
+
+  taskChecked = (e, name) => {
+    e.preventDefault();
+    var index = this.state.objectives.indexOf(
+      this.state.objectives.find(task => task.name === name)
+    );
+
+    const newtasks = this.state.objectives.slice();
+    newtasks[index].value = true;
+    this.setState({
+      objectives: newtasks
+    });
+  };
 
   render() {
     return (
-      <div>
-        <h1>Daily Checklist</h1>
+      <div className="cell">
+        <h2>Daily Checklist</h2>
         <ul>
-          <li>Placeholder</li>
+          {this.state.objectives.map(task => (
+            <li key={task.name}>
+              <input
+                id={task.name + 'Check'}
+                type="checkbox"
+                onClick={e => this.taskChecked(e, task.name)}
+              />
+              <label htmlFor={task.name + 'Check'}>{task.name}</label>
+            </li>
+          ))}
         </ul>
-        <button type="button" onClick={this.buttonClicked()}>
-          test
+        <button
+          type="button"
+          className="button"
+          onClick={e => this.resetClicked(e)}
+        >
+          reset
         </button>
       </div>
     );

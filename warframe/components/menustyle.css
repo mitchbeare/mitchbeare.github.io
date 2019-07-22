@@ -13,11 +13,18 @@ Energy: #DAD066
   width: 100vw;
   color: #dad066;
 }
+
+.contentArea {
+  padding-right: 6vw;
+  padding-left: 6vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
 #menuarea {
   position: relative;
+  top: -10px;
 }
 .menu {
-  position: absolute;
   top: -10;
   background: #363a3b;
   padding: 24px;
