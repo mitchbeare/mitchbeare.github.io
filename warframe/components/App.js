@@ -28,7 +28,7 @@ class App extends React.Component {
                   type="checkbox"
                   onClick={e => this.saveCheck(e)}
                 />
-                <label htmlhtmlFor="item1">Complete Vor's Prize Quest</label>
+                <label htmlFor="item1">Complete Vor's Prize Quest</label>
               </li>
               <li>
                 <input

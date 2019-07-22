@@ -6,7 +6,7 @@ class DailyTasks extends React.Component {
   }
 
   loadData() {
-    jQuery.getJSON('../data/dailies.json', function(data) {
+    jQuery.getJSON('/data/dailies.json', function(data) {
       console.log(data);
       var objectives = [];
     });
