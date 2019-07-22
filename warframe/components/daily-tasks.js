@@ -1,7 +1,7 @@
 class DailyTasks extends React.Component {
   constructor(props) {
     super(props);
-    loadData();
+    this.loadData();
     this.state = {};
   }
 
@@ -10,6 +10,14 @@ class DailyTasks extends React.Component {
       console.log(data);
       var objectives = [];
     });
+  }
+
+  checkData() {
+    //todo: Check JSON against stored cookie for updates.
+  }
+
+  updateData() {
+    //todo: Function to update JSON from website if changed.
   }
 
   render() {
