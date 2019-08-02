@@ -1,25 +1,16 @@
 class Splash extends React.Component {
   render() {
     return (
-      <div class="container">
-        <h1>Mitchell Beare</h1>
-        <p>Hi, I'm a software developer in training.</p>
-
-        <p>
-          This site is still very much under construction so expect more soon!
-        </p>
-
-        <p>Look at this random circle</p>
-        <svg>
-          <circle
-            cx="50"
-            cy="50"
-            r="40"
-            stroke="black"
-            stroke-width="3"
-            fill="blue"
-          />
-        </svg>
+      <div className="flex mx-4 my-2">
+        <div className="w-1/3 bg-red-100">
+          <h1>Mitchell Beare</h1>
+        </div>
+        <div className="w-2/3 bg-green-100">
+          <h1>Work Experience</h1>
+        </div>
+        <div className="w-2/3 bg-blue-100">
+          <h1>Education</h1>
+        </div>
       </div>
     );
   }
