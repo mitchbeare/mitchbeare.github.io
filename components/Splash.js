@@ -24,3 +24,5 @@ class Splash extends React.Component {
     );
   }
 }
+
+ReactDOM.render(<Splash />, document.getElementById('root'));
