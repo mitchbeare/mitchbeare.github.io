@@ -3,7 +3,30 @@ class Splash extends React.Component {
     return (
       <div className="flex mx-4 my-2">
         <div className="w-1/3 bg-red-100 h-full">
+          <img
+            src="https://via.placeholder.com/150
+C/O https://placeholder.com/"
+          />
           <h1>Mitchell Beare</h1>
+          <div>
+            <ul>
+              <li>
+                <i className="fas fas-briefcase" />
+                Programmer
+              </li>
+              <li>
+                <i className="fas fa-home" />
+                Brisbane, Australia
+              </li>
+              <li>
+                <i className="fas fa-envelope" />
+                MitchellBeare@gmail.com
+              </li>
+              <li>
+                <i className="fas fa-phone" />
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="w-2/3 flex flex-col">
           <div className="bg-green-100">
