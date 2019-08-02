@@ -4,7 +4,7 @@ class Splash extends React.Component {
       <div className="flex mx-4 my-2">
         <div className="w-1/3 bg-white rounded-lg shadow-xl mx-auto h-full p-6">
           <img
-            src="https://via.placeholder.com/150
+            src="https://via.placeholder.com/250
 C/O https://placeholder.com/"
           />
           <h1 className="text-2xl">Mitchell Beare</h1>
@@ -31,6 +31,14 @@ C/O https://placeholder.com/"
           <div>
             <i className="fas fa-star" />
             <h1 className="text-2xl">Skills</h1>
+            <div className="shadow w-full bg-grey-light mt-2">
+              <div
+                className="bg-blue text-xs leading-none py-1 text-center text-white"
+                style={{width: 45%}}
+              >
+                45%
+              </div>
+            </div>
           </div>
           <div>
             <i className="fas fa-star" />
