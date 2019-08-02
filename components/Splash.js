@@ -29,11 +29,28 @@ C/O https://placeholder.com/"
           </div>
         </div>
         <div className="w-2/3 flex flex-col">
-          <div className="mx-auto p-6 bg-white rounded-lg shadow-xl">
+          <div className="flex-grow mx-auto p-6 bg-white rounded-lg shadow-xl">
+            <i className="fas fa-briefcase" />
             <h1>Work Experience</h1>
+            <div>
+              <h2>Job title</h2>
+              <p>Job description</p>
+            </div>
+            <div>
+              <h2>Job title</h2>
+              <p>Job description</p>
+            </div>
+            <div>
+              <h2>Job title</h2>
+              <p>Job description</p>
+            </div>
           </div>
-          <div className="mx-auto p-6 bg-white rounded-lg shadow-xl">
+          <div className="flex-grow mx-auto p-6 bg-white rounded-lg shadow-xl">
             <h1>Education</h1>
+            <div>
+              <h2>Job title</h2>
+              <p>Job description</p>
+            </div>
           </div>
         </div>
       </div>
