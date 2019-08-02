@@ -5,7 +5,7 @@ class Splash extends React.Component {
         <div className="w-1/3 bg-red-100 h-full">
           <h1>Mitchell Beare</h1>
         </div>
-        <div className="w-2/3">
+        <div className="w-2/3 flex flex-col">
           <div className="bg-green-100">
             <h1>Work Experience</h1>
           </div>
