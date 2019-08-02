@@ -34,7 +34,7 @@ C/O https://placeholder.com/"
             <div className="shadow w-full bg-grey-light mt-2">
               <div
                 className="bg-blue text-xs leading-none py-1 text-center text-white"
-                style={{width: 45%}}
+                style={{ width: '45%' }}
               >
                 45%
               </div>
