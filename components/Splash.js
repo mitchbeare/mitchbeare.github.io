@@ -2,7 +2,7 @@ class Splash extends React.Component {
   render() {
     return (
       <div className="flex mx-4 my-2">
-        <div className="w-1/3 bg-red-100 h-full">
+        <div className="w-1/3 bg-white rounded-lg shadow-xl mx-auto h-full p-6">
           <img
             src="https://via.placeholder.com/150
 C/O https://placeholder.com/"
@@ -29,10 +29,10 @@ C/O https://placeholder.com/"
           </div>
         </div>
         <div className="w-2/3 flex flex-col">
-          <div className="bg-green-100">
+          <div className="mx-auto p-6 bg-white rounded-lg shadow-xl">
             <h1>Work Experience</h1>
           </div>
-          <div className="bg-blue-100">
+          <div className="mx-auto p-6 bg-white rounded-lg shadow-xl">
             <h1>Education</h1>
           </div>
         </div>
