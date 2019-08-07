@@ -9,7 +9,7 @@ class AboutPanel extends React.Component {
       <div>
         <img
           className="w-full"
-          src="../assets/images/avatar.png"
+          src="../assets/images/Avatar.png"
           alt="avatar"
         />
         <h1 className="text-2xl" style={{ color: '#95a5a6' }}>
