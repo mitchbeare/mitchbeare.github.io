@@ -1,5 +1,3 @@
-import SkillBar from './SkillBar';
-
 class Splash extends React.Component {
   render() {
     return (
