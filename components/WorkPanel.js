@@ -43,7 +43,7 @@ class WorkPanel extends React.Component {
           <h2>Developer / Teacher in a Box</h2>
           <h3>
             <i className="fas fa-calendar mr-2" style={{ color: '#16a085' }} />
-            some time - present
+            2018 - present
           </h3>
           <p>
             Volunteer developer working on automation and systems software to

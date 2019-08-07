@@ -7,14 +7,14 @@ class AboutPanel extends React.Component {
   render() {
     return (
       <div>
-        <div>
+        <div className="w-full">
           <img
-            className="w-full"
+            className="w-full z-0"
             src="../assets/images/Avatar.png"
             alt="avatar"
           />
           <h1
-            className="absolute bottom-0 left-0 text-2xl z-1"
+            className="absolute bottom-0 left-0 text-2xl z-1 p-2 w-full"
             style={{ color: '#95a5a6' }}
           >
             Mitchell Beare
