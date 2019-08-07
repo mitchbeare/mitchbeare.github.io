@@ -8,7 +8,7 @@ class EducationPanel extends React.Component {
     return (
       <div className="flex-grow mx-auto p-6 bg-white rounded-lg shadow-xl">
         <div>
-          <h1 className="text-2xl">
+          <h1 className="text-2xl" style={{ color: '#95a5a6' }}>
             <i
               className="fas fa-graduation-cap mr-2"
               style={{ color: '#16a085' }}
