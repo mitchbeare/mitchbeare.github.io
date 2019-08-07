@@ -11,10 +11,7 @@ class Splash extends React.Component {
             <EducationPanel />
           </div>
         </div>
-        <footer
-          className="w-full mx-auto"
-          style={{ backgroundColor: '#27ae60' }}
-        >
+        <div className="w-full mx-auto" style={{ backgroundColor: '#16a085' }}>
           <div className="w-full p-2 text-center">
             <p>Find me on social media</p>
             <div className="flex">
@@ -23,7 +20,7 @@ class Splash extends React.Component {
               <i className="fas github-square" />
             </div>
           </div>
-        </footer>
+        </div>
       </div>
     );
   }
