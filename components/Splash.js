@@ -2,11 +2,11 @@ class Splash extends React.Component {
   render() {
     return (
       <div>
-        <div className="flex px-4 py-2 w-screen sm:mx-1 md:mx-3 lg:mx-5 xl:ms7">
+        <div className="flex px-4 py-2 w-screen sm:mx-1 md:mx-4 lg:mx-7 xl:mx-10">
           <div className="flex-auto w-2/5 bg-white rounded-lg shadow-xl m-2 h-full">
             <AboutPanel />
           </div>
-          <div className="flex-auto w-3/5 flex flex-col m-2">
+          <div className="flex-auto w-2/5 flex flex-col m-2">
             <WorkPanel />
             <EducationPanel />
           </div>
