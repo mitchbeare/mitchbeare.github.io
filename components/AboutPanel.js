@@ -14,7 +14,7 @@ class AboutPanel extends React.Component {
             alt="avatar"
           />
           <h1
-            className="absolute bottom-0 left-0 text-2xl z-1 p-2 w-full"
+            className="relative bottom-0 left-0 text-2xl z-1 p-2 w-full"
             style={{ color: '#95a5a6' }}
           >
             Mitchell Beare
