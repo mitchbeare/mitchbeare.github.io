@@ -24,6 +24,7 @@ class EducationPanel extends React.Component {
           </h3>
           <p>Diploma in Software Development</p>
         </div>
+        <hr />
         <div>
           <h2>TAFE Queensland</h2>
           <h3>

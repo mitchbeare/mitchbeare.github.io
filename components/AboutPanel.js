@@ -55,6 +55,7 @@ class AboutPanel extends React.Component {
           <SkillBar skillName="Design" barColor="#3498db" fill="35%" />
           <SkillBar skillName="Tech Support" barColor="#9b59b6" fill="80%" />
         </div>
+        <hr />
         <div>
           <h1 className="text-2xl" style={{ color: '#95a5a6' }}>
             <i className="fas fa-globe mr-2" style={{ color: '#16a085' }} />

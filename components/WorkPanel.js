@@ -24,6 +24,7 @@ class WorkPanel extends React.Component {
             workflows for staff.
           </p>
         </div>
+        <hr />
         <br />
         <div>
           <h2>Computer Technician/ Computers 4 Learning</h2>
@@ -36,6 +37,7 @@ class WorkPanel extends React.Component {
             system and application development.
           </p>
         </div>
+        <hr />
         <br />
         <div>
           <h2>Developer / Teacher in a Box</h2>
