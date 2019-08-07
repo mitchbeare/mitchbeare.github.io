@@ -1,6 +1,7 @@
 class Splash extends React.Component {
   render() {
     return (
+      <div>
         <div className="flex px-4 py-2 w-screen overflow-visible sm:mx-40 md:mx-48 lg:mx-56 xl:mx-64">
           <div className="flex-auto w-auto bg-white rounded-lg shadow-xl m-2 h-full">
             <AboutPanel />
@@ -28,6 +29,7 @@ class Splash extends React.Component {
             </p>
           </div>
         </div>
+      </div>
     );
   }
 }

@@ -20,7 +20,7 @@ class AboutPanel extends React.Component {
             Mitchell Beare
           </h1>
         </div>
-        <div className="mx-3">
+        <div className="sm:mx-1 md:mx-2 lg:mx-2 xl:mx-3 min-w-">
           <ul>
             <li>
               <i
