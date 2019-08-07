@@ -5,7 +5,7 @@ class Splash extends React.Component {
         <div className="w-1/3 bg-white rounded-lg shadow-xl mx-auto h-full p-6 flex-grow">
           <AboutPanel />
         </div>
-        <div className="w-2/3 flex flex-col">
+        <div className="w-2/3 flex flex-col mx-auto">
           <WorkPanel />
           <EducationPanel />
         </div>

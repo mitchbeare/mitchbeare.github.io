@@ -12,26 +12,26 @@ class AboutPanel extends React.Component {
           <div>
             <ul>
               <li>
-                <i className="fas fas-briefcase" />
+                <i className="fas fas-briefcase" style={{color: '#16a085'}} />
                 Programmer
               </li>
               <li>
-                <i className="fas fa-home" />
+                <i className="fas fa-home" style={{color: '#16a085'}}/>
                 Brisbane, Australia
               </li>
               <li>
-                <i className="fas fa-envelope" />
+                <i className="fas fa-envelope" style={{color: '#16a085'}}/>
                 MitchellBeare@gmail.com
               </li>
               <li>
-                <i className="fas fa-phone" />
+                <i className="fas fa-phone" style={{color: '#16a085'}}/>
                 0434 052 203
               </li>
             </ul>
           </div>
           <div>
             <h1 className="text-2xl">
-              <i className="fas fa-star" />
+              <i className="fas fa-star" style={{color: '#16a085'}}/>
               Skills
             </h1>
             <SkillBar skillName="Scripting" barColor="#1abc9c" fill="60%" />
@@ -41,7 +41,7 @@ class AboutPanel extends React.Component {
           </div>
           <div>
             <h1 className="text-2xl">
-              <i className="fas fa-star" />
+              <i className="fas fa-star" style={{color: '#16a085'}} />
               Languages
             </h1>
             <SkillBar skillName="Powershell" barColor="#1abc9c" fill="60%" />
