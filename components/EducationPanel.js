@@ -1,4 +1,4 @@
-class AboutPanel extends React.Component {
+class EducationPanel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
