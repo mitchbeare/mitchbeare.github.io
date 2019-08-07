@@ -34,20 +34,20 @@ class AboutPanel extends React.Component {
             <i className="fas fa-star" />
             Skills
           </h1>
-          <SkillBar skillName="Scripting" barColor="#00adb5" fill="60%" />
-          <SkillBar skillName="Development" barColor="#00adb5" fill="40%" />
-          <SkillBar skillName="Design" barColor="#00adb5" fill="40%" />
-          <SkillBar skillName="Tech Support" barColor="#00adb5" fill="80%" />
+          <SkillBar skillName="Scripting" barColor="#1abc9c" fill="60%" />
+          <SkillBar skillName="Development" barColor="#2ecc71" fill="40%" />
+          <SkillBar skillName="Design" barColor="#3498db" fill="35%" />
+          <SkillBar skillName="Tech Support" barColor="#9b59b6" fill="80%" />
         </div>
         <div>
           <h1 className="text-2xl">
             <i className="fas fa-star" />
             Languages
           </h1>
-          <SkillBar skillName="Powershell" barColor="#00adb5" fill="10%" />
-          <SkillBar skillName="VBA" barColor="#00adb5" fill="10%" />
-          <SkillBar skillName="Javascript" barColor="#00adb5" fill="10%" />
-          <SkillBar skillName="Java" barColor="#00adb5" fill="10%" />
+          <SkillBar skillName="Powershell" barColor="#1abc9c" fill="60%" />
+          <SkillBar skillName="VBA" barColor="#2ecc71" fill="40%" />
+          <SkillBar skillName="Javascript" barColor="#3498db" fill="50%" />
+          <SkillBar skillName="Java" barColor="#9b59b6" fill="45%" />
         </div>
       </div>
     );

@@ -16,7 +16,7 @@ class SkillBar extends React.Component {
               backgroundColor: `${this.props.barColor}`
             }}
           >
-            45%
+            {this.props.text}
           </div>
         </div>
       </div>
