@@ -83,7 +83,7 @@ class AboutPanel extends React.Component {
           />
         </div>
         <hr className="mx-3" />
-        <div className="mx-3">
+        <div className="mx-3 mb-2">
           <h1 className="text-2xl" style={{ color: '#95a5a6' }}>
             <i className="fas fa-globe mr-2" style={{ color: '#16a085' }} />
             Languages
