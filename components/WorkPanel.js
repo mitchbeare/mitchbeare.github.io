@@ -6,7 +6,7 @@ class WorkPanel extends React.Component {
 
   render() {
     return (
-      <div className="flex-auto w-full mx-auto p-6 bg-white rounded-lg shadow-xl">
+      <div className="flex-auto w-full mx-auto p-6 my-1 bg-white rounded-lg shadow-xl">
         <div>
           <h1 className="text-2xl" style={{ color: '#95a5a6' }}>
             <i className="fas fa-briefcase mr-2" style={{ color: '#16a085' }} />

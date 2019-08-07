@@ -8,7 +8,9 @@ class AboutPanel extends React.Component {
     return (
       <div>
         <img src="https://via.placeholder.com/250" />
-        <h1 className="text-2xl" style={{color: '#95a5a6'}}>Mitchell Beare</h1>
+        <h1 className="text-2xl" style={{ color: '#95a5a6' }}>
+          Mitchell Beare
+        </h1>
         <div>
           <ul>
             <li>
@@ -35,8 +37,9 @@ class AboutPanel extends React.Component {
             </li>
           </ul>
         </div>
+        <hr />
         <div>
-        <h1 className="text-2xl" style={{color: '#95a5a6'}}>
+          <h1 className="text-2xl" style={{ color: '#95a5a6' }}>
             <i
               className="fas fa-certificate mr-2"
               style={{ color: '#16a085' }}
@@ -49,7 +52,7 @@ class AboutPanel extends React.Component {
           <SkillBar skillName="Tech Support" barColor="#9b59b6" fill="80%" />
         </div>
         <div>
-        <h1 className="text-2xl" style={{color: '#95a5a6'}}>
+          <h1 className="text-2xl" style={{ color: '#95a5a6' }}>
             <i className="fas fa-globe mr-2" style={{ color: '#16a085' }} />
             Languages
           </h1>

@@ -18,15 +18,9 @@ class Splash extends React.Component {
           <div className="w-full p-2 text-center">
             <p>Find me on social media</p>
             <div className="flex">
-              <a href="https://www.facebook.com/mitchell.beare.1">
-                <i className="fas facebook-square" />
-              </a>
-              <a href="https://www.linkedin.com/in/mitchell-beare-0002b6151/">
-                <i className="fas linkedin" />
-              </a>
-              <a href="https://github.com/mitchbeare">
-                <i className="fas github-square" />
-              </a>
+              <i className="fas facebook-square" />
+              <i className="fas linkedin" />
+              <i className="fas github-square" />
             </div>
           </div>
         </footer>
