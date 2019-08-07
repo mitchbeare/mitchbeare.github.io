@@ -30,9 +30,7 @@ class SkillBar extends React.Component {
               backgroundColor: `${this.props.barColor}`
             }}
           >
-            {() => {
-              this.state.isHovering ? null : this.props.text;
-            }}
+            {this.state.isHovering ? null : this.props.text}
           </div>
         </div>
       </div>
