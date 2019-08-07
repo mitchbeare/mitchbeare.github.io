@@ -1,50 +1,8 @@
 class Splash extends React.Component {
   render() {
     return (
-      <div className="flex mx-4 my-2">
-        <div className="w-1/3 bg-white rounded-lg shadow-xl mx-auto h-full p-6">
-          <img
-            src="https://via.placeholder.com/250
-C/O https://placeholder.com/"
-          />
-          <h1 className="text-2xl">Mitchell Beare</h1>
-          <div>
-            <ul>
-              <li>
-                <i className="fas fas-briefcase" />
-                Programmer
-              </li>
-              <li>
-                <i className="fas fa-home" />
-                Brisbane, Australia
-              </li>
-              <li>
-                <i className="fas fa-envelope" />
-                MitchellBeare@gmail.com
-              </li>
-              <li>
-                <i className="fas fa-phone" />
-                0434 052 203
-              </li>
-            </ul>
-          </div>
-          <div>
-            <i className="fas fa-star" />
-            <h1 className="text-2xl">Skills</h1>
-            <SkillBar skillName="Scripting" />
-            <SkillBar skillName="Development" />
-            <SkillBar skillName="Design" />
-            <SkillBar skillName="Tech Support" />
-          </div>
-          <div>
-            <i className="fas fa-star" />
-            <h1 className="text-2xl">Languages</h1>
-            <SkillBar skillName="Powershell" />
-            <SkillBar skillName="VBA" />
-            <SkillBar skillName="Javascript" />
-            <SkillBar skillName="Java" />
-          </div>
-        </div>
+      <div className="flex mx-4 my-3">
+        <AboutPanel />
         <div className="w-2/3 flex flex-col">
           <div className="flex-grow mx-auto p-6 bg-white rounded-lg shadow-xl">
             <div>
@@ -66,8 +24,8 @@ C/O https://placeholder.com/"
               <i className="fas fa-calendar" />
               <h3>2016 - present</h3>
               <p>
-                Volunteer systems Administrator, primarly working on in house
-                system and application developement.
+                Volunteer systems Administrator, primarily working on in house
+                system and application development.
               </p>
             </div>
             <br />
@@ -91,8 +49,16 @@ C/O https://placeholder.com/"
               <h1 className="text-2xl">Education</h1>
             </div>
             <div>
-              <h2>Institution Name</h2>
-              <p>Degree</p>
+              <h2>Australis College</h2>
+              <i className="fas fa-calendar" />
+              <h3>2019 - Ongoing</h3>
+              <p>Diploma in Software Development</p>
+            </div>
+            <div>
+              <h2>TAFE Queensland</h2>
+              <i className="fas fa-calendar" />
+              <h3>2017 - 2017</h3>
+              <p>Certificate IV Information Technology</p>
             </div>
           </div>
         </div>
