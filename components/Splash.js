@@ -14,11 +14,10 @@ class Splash extends React.Component {
         <div className="w-full mx-auto" style={{ backgroundColor: '#16a085' }}>
           <div className="w-full p-2 text-center">
             <p>Find me on social media</p>
-            <div className="flex">
-              <i className="fas facebook-square" />
-              <i className="fas linkedin" />
-              <i className="fas github-square" />
-            </div>
+            <i className="fas facebook-square" />
+            <i className="fas linkedin" />
+            <i className="fas github-square" />
+            <p>Powered by React with Tailwind CSS</p>
           </div>
         </div>
       </div>

@@ -1,14 +1,28 @@
 class SkillBar extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { isHovering: false };
   }
+
+  handleMouseHover = event => {
+    this.setState(this.toggleHoverState);
+  };
+
+  toggleHoverState = () => {
+    return {
+      isHovering: !this.state.isHovering
+    };
+  };
 
   render() {
     return (
       <div>
         <h2>{this.props.skillName}</h2>
-        <div className="shadow w-full bg-grey-light mt-2">
+        <div
+          className="shadow w-full bg-grey-light mt-2"
+          onMouseEnter={this.handleMouseHover}
+          onMouseLeave={this.handleMouseHover}
+        >
           <div
             className="bg-blue text-xs leading-none py-1 text-center text-white"
             style={{
@@ -16,7 +30,7 @@ class SkillBar extends React.Component {
               backgroundColor: `${this.props.barColor}`
             }}
           >
-            {this.props.text}
+            if({this.props.text}){Test}
           </div>
         </div>
       </div>
