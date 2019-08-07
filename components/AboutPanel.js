@@ -7,10 +7,7 @@ class AboutPanel extends React.Component {
   render() {
     return (
       <div className="w-1/3 bg-white rounded-lg shadow-xl mx-auto h-full p-6">
-        <img
-          src="https://via.placeholder.com/250
-  C/O https://placeholder.com/"
-        />
+        <img src="https://via.placeholder.com/250C/O https://placeholder.com/" />
         <h1 className="text-2xl">Mitchell Beare</h1>
         <div>
           <ul>
@@ -33,20 +30,24 @@ class AboutPanel extends React.Component {
           </ul>
         </div>
         <div>
-          <i className="fas fa-star" />
-          <h1 className="text-2xl">Skills</h1>
-          <SkillBar skillName="Scripting" />
-          <SkillBar skillName="Development" />
-          <SkillBar skillName="Design" />
-          <SkillBar skillName="Tech Support" />
+          <h1 className="text-2xl">
+            <i className="fas fa-star" />
+            Skills
+          </h1>
+          <SkillBar skillName="Scripting" barColor="#00adb5" fill="60%" />
+          <SkillBar skillName="Development" barColor="#00adb5" fill="40%" />
+          <SkillBar skillName="Design" barColor="#00adb5" fill="40%" />
+          <SkillBar skillName="Tech Support" barColor="#00adb5" fill="80%" />
         </div>
         <div>
-          <i className="fas fa-star" />
-          <h1 className="text-2xl">Languages</h1>
-          <SkillBar skillName="Powershell" />
-          <SkillBar skillName="VBA" />
-          <SkillBar skillName="Javascript" />
-          <SkillBar skillName="Java" />
+          <h1 className="text-2xl">
+            <i className="fas fa-star" />
+            Languages
+          </h1>
+          <SkillBar skillName="Powershell" barColor="#00adb5" fill="10%" />
+          <SkillBar skillName="VBA" barColor="#00adb5" fill="10%" />
+          <SkillBar skillName="Javascript" barColor="#00adb5" fill="10%" />
+          <SkillBar skillName="Java" barColor="#00adb5" fill="10%" />
         </div>
       </div>
     );

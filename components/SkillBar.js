@@ -11,7 +11,10 @@ class SkillBar extends React.Component {
         <div className="shadow w-full bg-grey-light mt-2">
           <div
             className="bg-blue text-xs leading-none py-1 text-center text-white"
-            style={{ width: '45%', backgroundColor: 'blue' }}
+            style={{
+              width: `${this.props.fill}`,
+              backgroundColor: `${this.props.barColor}`
+            }}
           >
             45%
           </div>
