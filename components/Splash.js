@@ -49,29 +49,32 @@ C/O https://placeholder.com/"
           <div className="flex-grow mx-auto p-6 bg-white rounded-lg shadow-xl">
             <div>
               <i className="fas fa-briefcase" />
-              <h1 className="text-2xl">Work Experience</h1>
+              <h1 className="text-2xl"> Work Experience</h1>
             </div>
             <div>
-              <h2>
-                Computer Technician, Queensland Education Department - 2015 -
-                present
-              </h2>
+              <h2>Computer Technician / Queensland Education Department</h2>
+              <i className="fas fa-calendar" />
+              <h3>2015 - present</h3>
               <p>
                 First Contact support, providing fault diagnostics and scripted
                 workflows for staff.
               </p>
             </div>
+            <br />
             <div>
-              <h2>
-                Computer Technician, Computers 4 Learning - 2016 - present
-              </h2>
+              <h2>Computer Technician/ Computers 4 Learning</h2>
+              <i className="fas fa-calendar" />
+              <h3>2016 - present</h3>
               <p>
                 Volunteer systems Administrator, primarly working on in house
                 system and application developement.
               </p>
             </div>
+            <br />
             <div>
-              <h2>Developer, Teacer in a Box - some time - present</h2>
+              <h2>Developer / Teacher in a Box</h2>
+              <i className="fas fa-calendar" />
+              <h3>some time - present</h3>
               <p>
                 Volunteer developer working on automation and systems software
                 to support the project.
