@@ -9,20 +9,6 @@ class Splash extends React.Component {
           <WorkPanel />
           <EducationPanel />
         </div>
-        <footer className="bg-black">
-          <div>
-            <p>Find me on social media</p>
-            <a href="https://www.facebook.com/mitchell.beare.1">
-              <i className="fas facebook-square" />
-            </a>
-            <a href="https://www.linkedin.com/in/mitchell-beare-0002b6151/">
-              <i className="fas linkedin" />
-            </a>
-            <a href="https://github.com/mitchbeare">
-              <i className="fas github-square" />
-            </a>
-          </div>
-        </footer>
       </div>
     );
   }
