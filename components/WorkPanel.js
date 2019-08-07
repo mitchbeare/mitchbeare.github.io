@@ -14,7 +14,12 @@ class WorkPanel extends React.Component {
           </h1>
         </div>
         <div>
-          <h2>Computer Technician / Queensland Education Department</h2>
+          <h2>
+            School Computer Technician /{' '}
+            <a href="https://education.qld.gov.au/">
+              Queensland Education Department
+            </a>
+          </h2>
           <h3>
             <i className="fas fa-calendar mr-2" style={{ color: '#16a085' }} />
             2015 - present
@@ -27,7 +32,10 @@ class WorkPanel extends React.Component {
         <hr />
         <br />
         <div>
-          <h2>Computer Technician/ Computers 4 Learning</h2>
+          <h2>
+            Computer Technician/{' '}
+            <a href="http://computers4learning.org.au/">Computers 4 Learning</a>
+          </h2>
           <h3>
             <i className="fas fa-calendar mr-2" style={{ color: '#16a085' }} />
             2016 - present
@@ -40,7 +48,10 @@ class WorkPanel extends React.Component {
         <hr />
         <br />
         <div>
-          <h2>Developer / Teacher in a Box</h2>
+          <h2>
+            Developer /{' '}
+            <a href="http://teacherinabox.org.au/">Teacher in a Box</a>
+          </h2>
           <h3>
             <i className="fas fa-calendar mr-2" style={{ color: '#16a085' }} />
             2018 - present
