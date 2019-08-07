@@ -1,3 +1,5 @@
+import SkillBar from './SkillBar';
+
 class Splash extends React.Component {
   render() {
     return (
@@ -31,18 +33,18 @@ C/O https://placeholder.com/"
           <div>
             <i className="fas fa-star" />
             <h1 className="text-2xl">Skills</h1>
-            <div className="shadow w-full bg-grey-light mt-2">
-              <div
-                className="bg-blue text-xs leading-none py-1 text-center text-white"
-                style={{ width: '45%' }}
-              >
-                45%
-              </div>
-            </div>
+            <SkillBar skillName="Scripting" />
+            <SkillBar skillName="Development" />
+            <SkillBar skillName="Design" />
+            <SkillBar skillName="Tech Support" />
           </div>
           <div>
             <i className="fas fa-star" />
             <h1 className="text-2xl">Languages</h1>
+            <SkillBar skillName="Powershell" />
+            <SkillBar skillName="VBA" />
+            <SkillBar skillName="Javascript" />
+            <SkillBar skillName="Java" />
           </div>
         </div>
         <div className="w-2/3 flex flex-col">
@@ -52,12 +54,30 @@ C/O https://placeholder.com/"
               <h1 className="text-2xl">Work Experience</h1>
             </div>
             <div>
-              <h2>Job title</h2>
-              <p>Job description</p>
+              <h2>
+                Computer Technician, Queensland Education Department - 2015 -
+                present
+              </h2>
+              <p>
+                First Contact support, providing fault diagnostics and scripted
+                workflows for staff.
+              </p>
             </div>
             <div>
-              <h2>Job title</h2>
-              <p>Job description</p>
+              <h2>
+                Computer Technician, Computers 4 Learning - 2016 - present
+              </h2>
+              <p>
+                Volunteer systems Administrator, primarly working on in house
+                system and application developement.
+              </p>
+            </div>
+            <div>
+              <h2>Developer, Teacer in a Box - some time - present</h2>
+              <p>
+                Volunteer developer working on automation and systems software
+                to support the project.
+              </p>
             </div>
             <div>
               <h2>Job title</h2>
