@@ -12,7 +12,7 @@ class Splash extends React.Component {
           </div>
         </div>
         <footer
-          className="w-full mx-auto h-"
+          className="w-full mx-auto"
           style={{ backgroundColor: '#27ae60' }}
         >
           <div>
