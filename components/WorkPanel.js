@@ -4,8 +4,8 @@ class AboutPanel extends React.Component {
     this.state = {};
   }
 
-  render(){
-      return(
+  render() {
+    return (
         <div className="flex-grow mx-auto p-6 bg-white rounded-lg shadow-xl">
           <div>
             <h1 className="text-2xl">
@@ -44,15 +44,11 @@ class AboutPanel extends React.Component {
               some time - present
             </h3>
             <p>
-              Volunteer developer working on automation and systems software
-              to support the project.
+              Volunteer developer working on automation and systems software to
+              support the project.
             </p>
           </div>
-          <div>
-            <h2>Job title</h2>
-            <p>Job description</p>
-          </div>
         </div>
-      )
+    );
   }
 }

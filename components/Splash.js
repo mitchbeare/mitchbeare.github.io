@@ -2,33 +2,12 @@ class Splash extends React.Component {
   render() {
     return (
       <div className="flex px-4 py-2 w-screen">
-        <AboutPanel />
-        <WorkPanel />
-        <div className="w-2/3 flex flex-col mx-auto">
-          <div className="flex-grow mx-auto p-6 bg-white rounded-lg shadow-xl">
-            <div>
-              <h1 className="text-2xl">
-                <i className="fas fa-graduation-cap mr-2" />
-                Education
-              </h1>
-            </div>
-            <div>
-              <h2>Australis College</h2>
-              <h3>
-                <i className="fas fa-calendar mr-2" />
-                2019 - Ongoing
-              </h3>
-              <p>Diploma in Software Development</p>
-            </div>
-            <div>
-              <h2>TAFE Queensland</h2>
-              <h3>
-                <i className="fas fa-calendar mr-2" />
-                2017 - 2017
-              </h3>
-              <p>Certificate IV Information Technology</p>
-            </div>
-          </div>
+        <div className="w-1/3 bg-white rounded-lg shadow-xl mx-auto h-full p-6 flex-grow">
+          <AboutPanel />
+        </div>
+        <div className="w-2/3 flex flex-col">
+          <WorkPanel />
+          <EducationPanel />
         </div>
       </div>
     );
