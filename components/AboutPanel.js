@@ -9,18 +9,18 @@ class AboutPanel extends React.Component {
       <div>
         <div className="relative w-full">
           <img
-            className="w-full z-0"
+            className="w-full z-0 rounded-lg"
             src="../assets/images/Avatar.png"
             alt="avatar"
           />
           <h1
-            className="absolute bottom-0 left-0 text-2xl z-1 p-2 w-full"
-            style={{ color: '#95a5a6' }}
+            className="absolute bottom-0 left-0 text-3xl z-1 p-2 w-full"
+            style={{ color: '#2c3e50' }}
           >
             Mitchell Beare
           </h1>
         </div>
-        <div>
+        <div className="mx-2">
           <ul>
             <li>
               <i
@@ -49,7 +49,7 @@ class AboutPanel extends React.Component {
           </ul>
         </div>
         <hr />
-        <div>
+        <div className="mx-2">
           <h1 className="text-2xl" style={{ color: '#95a5a6' }}>
             <i
               className="fas fa-certificate mr-2"
@@ -57,10 +57,30 @@ class AboutPanel extends React.Component {
             />
             Skills
           </h1>
-          <SkillBar skillName="Scripting" barColor="#1abc9c" fill="60%" />
-          <SkillBar skillName="Development" barColor="#2ecc71" fill="40%" />
-          <SkillBar skillName="Design" barColor="#3498db" fill="35%" />
-          <SkillBar skillName="Tech Support" barColor="#9b59b6" fill="80%" />
+          <SkillBar
+            skillName="Scripting"
+            barColor="#1abc9c"
+            fill="60%"
+            text="test"
+          />
+          <SkillBar
+            skillName="Development"
+            barColor="#2ecc71"
+            fill="40%"
+            text="test"
+          />
+          <SkillBar
+            skillName="Design"
+            barColor="#3498db"
+            fill="35%"
+            text="test"
+          />
+          <SkillBar
+            skillName="Tech Support"
+            barColor="#9b59b6"
+            fill="80%"
+            text="test"
+          />
         </div>
         <hr />
         <div>
@@ -68,10 +88,25 @@ class AboutPanel extends React.Component {
             <i className="fas fa-globe mr-2" style={{ color: '#16a085' }} />
             Languages
           </h1>
-          <SkillBar skillName="Powershell" barColor="#1abc9c" fill="60%" />
-          <SkillBar skillName="VBA" barColor="#2ecc71" fill="40%" />
-          <SkillBar skillName="Javascript" barColor="#3498db" fill="50%" />
-          <SkillBar skillName="Java" barColor="#9b59b6" fill="45%" />
+          <SkillBar
+            skillName="Powershell"
+            barColor="#1abc9c"
+            fill="60%"
+            text="test"
+          />
+          <SkillBar skillName="VBA" barColor="#2ecc71" fill="40%" text="test" />
+          <SkillBar
+            skillName="Javascript"
+            barColor="#3498db"
+            fill="50%"
+            text="test"
+          />
+          <SkillBar
+            skillName="Java"
+            barColor="#9b59b6"
+            fill="45%"
+            text="test"
+          />
         </div>
       </div>
     );

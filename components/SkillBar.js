@@ -5,12 +5,10 @@ class SkillBar extends React.Component {
   }
 
   handleMouseHover = event => {
-    console.log('handle fired');
     this.setState(this.toggleHoverState);
   };
 
   toggleHoverState = () => {
-    console.log('toggle fired');
     return {
       isHovering: !this.state.isHovering
     };
