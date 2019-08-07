@@ -6,7 +6,7 @@ class AboutPanel extends React.Component {
 
   render() {
     return (
-      <div className="w-1/3 bg-white rounded-lg shadow-xl mx-auto h-full p-6">
+      <div className="w-1/3 bg-white rounded-lg shadow-xl mx-auto h-full p-6 flex-grow">
         <img src="https://via.placeholder.com/250C/O https://placeholder.com/" />
         <h1 className="text-2xl">Mitchell Beare</h1>
         <div>

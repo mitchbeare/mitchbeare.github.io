@@ -3,58 +3,12 @@ class Splash extends React.Component {
     return (
       <div className="flex px-4 py-2 w-screen">
         <AboutPanel />
-        <div className="w-2/3 flex flex-col mx-auto">
           <div className="flex-grow mx-auto p-6 bg-white rounded-lg shadow-xl">
             <div>
               <h1 className="text-2xl">
-                <i className="fas fa-briefcase mr-2 text-indigo-600" />
-                Work Experience
+                <i className="fas fa-graduation-cap mr-2" />
+                Education
               </h1>
-            </div>
-            <div>
-              <h2>Computer Technician / Queensland Education Department</h2>
-              <h3>
-                <i className="fas fa-calendar mr-2" />
-                2015 - present
-              </h3>
-              <p>
-                First Contact support, providing fault diagnostics and scripted
-                workflows for staff.
-              </p>
-            </div>
-            <br />
-            <div>
-              <h2>Computer Technician/ Computers 4 Learning</h2>
-              <h3>
-                <i className="fas fa-calendar mr-2" />
-                2016 - present
-              </h3>
-              <p>
-                Volunteer systems Administrator, primarily working on in house
-                system and application development.
-              </p>
-            </div>
-            <br />
-            <div>
-              <h2>Developer / Teacher in a Box</h2>
-              <h3>
-                <i className="fas fa-calendar mr-2" />
-                some time - present
-              </h3>
-              <p>
-                Volunteer developer working on automation and systems software
-                to support the project.
-              </p>
-            </div>
-            <div>
-              <h2>Job title</h2>
-              <p>Job description</p>
-            </div>
-          </div>
-          <div className="flex-grow mx-auto p-6 bg-white rounded-lg shadow-xl">
-            <div>
-              <i className="fas fa-graduation-cap mr-2" />
-              <h1 className="text-2xl">Education</h1>
             </div>
             <div>
               <h2>Australis College</h2>
