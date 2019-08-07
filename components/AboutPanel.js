@@ -6,50 +6,50 @@ class AboutPanel extends React.Component {
 
   render() {
     return (
+      <div>
+        <img src="https://via.placeholder.com/250" />
+        <h1 className="text-2xl">Mitchell Beare</h1>
         <div>
-          <img src="https://via.placeholder.com/250C/O https://placeholder.com/" />
-          <h1 className="text-2xl">Mitchell Beare</h1>
-          <div>
-            <ul>
-              <li>
-                <i className="fas fas-briefcase" style={{color: '#16a085'}} />
-                Programmer
-              </li>
-              <li>
-                <i className="fas fa-home" style={{color: '#16a085'}}/>
-                Brisbane, Australia
-              </li>
-              <li>
-                <i className="fas fa-envelope" style={{color: '#16a085'}}/>
-                MitchellBeare@gmail.com
-              </li>
-              <li>
-                <i className="fas fa-phone" style={{color: '#16a085'}}/>
-                0434 052 203
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h1 className="text-2xl">
-              <i className="fas fa-star" style={{color: '#16a085'}}/>
-              Skills
-            </h1>
-            <SkillBar skillName="Scripting" barColor="#1abc9c" fill="60%" />
-            <SkillBar skillName="Development" barColor="#2ecc71" fill="40%" />
-            <SkillBar skillName="Design" barColor="#3498db" fill="35%" />
-            <SkillBar skillName="Tech Support" barColor="#9b59b6" fill="80%" />
-          </div>
-          <div>
-            <h1 className="text-2xl">
-              <i className="fas fa-star" style={{color: '#16a085'}} />
-              Languages
-            </h1>
-            <SkillBar skillName="Powershell" barColor="#1abc9c" fill="60%" />
-            <SkillBar skillName="VBA" barColor="#2ecc71" fill="40%" />
-            <SkillBar skillName="Javascript" barColor="#3498db" fill="50%" />
-            <SkillBar skillName="Java" barColor="#9b59b6" fill="45%" />
-          </div>
+          <ul>
+            <li>
+              <i className="fas fas-briefcase" style={{ color: '#16a085' }} />
+              Programmer
+            </li>
+            <li>
+              <i className="fas fa-home" style={{ color: '#16a085' }} />
+              Brisbane, Australia
+            </li>
+            <li>
+              <i className="fas fa-envelope" style={{ color: '#16a085' }} />
+              MitchellBeare@gmail.com
+            </li>
+            <li>
+              <i className="fas fa-phone" style={{ color: '#16a085' }} />
+              0434 052 203
+            </li>
+          </ul>
         </div>
+        <div>
+          <h1 className="text-2xl">
+            <i className="fas fa-star" style={{ color: '#16a085' }} />
+            Skills
+          </h1>
+          <SkillBar skillName="Scripting" barColor="#1abc9c" fill="60%" />
+          <SkillBar skillName="Development" barColor="#2ecc71" fill="40%" />
+          <SkillBar skillName="Design" barColor="#3498db" fill="35%" />
+          <SkillBar skillName="Tech Support" barColor="#9b59b6" fill="80%" />
+        </div>
+        <div>
+          <h1 className="text-2xl">
+            <i className="fas fa-star" style={{ color: '#16a085' }} />
+            Languages
+          </h1>
+          <SkillBar skillName="Powershell" barColor="#1abc9c" fill="60%" />
+          <SkillBar skillName="VBA" barColor="#2ecc71" fill="40%" />
+          <SkillBar skillName="Javascript" barColor="#3498db" fill="50%" />
+          <SkillBar skillName="Java" barColor="#9b59b6" fill="45%" />
+        </div>
+      </div>
     );
   }
 }
