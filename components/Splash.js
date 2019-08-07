@@ -9,7 +9,14 @@ class Splash extends React.Component {
           <WorkPanel />
           <EducationPanel />
         </div>
-        <footer className="bg-black">Some content</footer>
+        <footer className="bg-black">
+          <div>
+            <p>Find me on social media</p>
+            <a>Face</a>
+            <a>Linked</a>
+            <a>Github</a>
+          </div>
+        </footer>
       </div>
     );
   }
