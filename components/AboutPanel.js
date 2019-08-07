@@ -7,9 +7,9 @@ class AboutPanel extends React.Component {
   render() {
     return (
       <div>
-        <div className="relative w-full max-w-6xl">
+        <div className="relative w-full max-w-4xl">
           <img
-            className="w-full z-0 rounded-t-lg"
+            className="w-full z-0 rounded-t-lg "
             src="../assets/images/Avatar.png"
             alt="avatar"
           />
