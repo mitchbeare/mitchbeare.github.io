@@ -11,7 +11,10 @@ class Splash extends React.Component {
             <EducationPanel />
           </div>
         </div>
-        <footer className="w-full mx-auto" style="background-color: #27ae60">
+        <footer
+          className="w-full mx-auto h-"
+          style={{ backgroundColor: '#27ae60' }}
+        >
           <div>
             <p>Find me on social media</p>
             <a href="https://www.facebook.com/mitchell.beare.1">
