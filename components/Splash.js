@@ -15,13 +15,13 @@ class Splash extends React.Component {
           <div className="w-full p-2 text-center">
             <p>Find me on social media</p>
             <a href="https://www.facebook.com/mitchell.beare.1?ref=bookmarks">
-              <i className="fas fa-facebook-square" />
+              <i className="fas fa-facebook" />
             </a>
             <a href="https://www.linkedin.com/in/mitchell-beare-0002b6151/">
               <i className="fas fa-linkedin" />
             </a>
             <a href="https://github.com/mitchbeare">
-              <i className="fas fa-github-square" />
+              <i className="fas fa-github" />
             </a>
             <p>
               Powered by <a href="https://reactjs.org/">React</a> with{' '}
