@@ -38,11 +38,13 @@ class AboutPanel extends React.Component {
                 className="fas fa-envelope mr-2"
                 style={{ color: '#16a085' }}
               />
-              MitchellBeare@gmail.com
+              <a href="mailto: MitchellBeare@gmail.com">
+                MitchellBeare@gmail.com
+              </a>
             </li>
             <li>
               <i className="fas fa-phone mr-2" style={{ color: '#16a085' }} />
-              0434 052 203
+              <a href="tel:0434052203">0434 052 203</a>
             </li>
           </ul>
         </div>

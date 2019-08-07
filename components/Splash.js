@@ -3,10 +3,10 @@ class Splash extends React.Component {
     return (
       <div>
         <div className="flex px-4 py-2 w-screen">
-          <div className="flex-auto w-1/3 bg-white rounded-lg shadow-xl m-2 h-full">
+          <div className="flex-auto w-2/5 bg-white rounded-lg shadow-xl m-2 h-full">
             <AboutPanel />
           </div>
-          <div className="flex-auto w-2/3 flex flex-col m-2">
+          <div className="flex-auto w-3/5 flex flex-col m-2">
             <WorkPanel />
             <EducationPanel />
           </div>
