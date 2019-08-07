@@ -6,13 +6,17 @@ class Splash extends React.Component {
         <div className="w-2/3 flex flex-col mx-auto">
           <div className="flex-grow mx-auto p-6 bg-white rounded-lg shadow-xl">
             <div>
-              <i className="fas fa-briefcase" />
-              <h1 className="text-2xl"> Work Experience</h1>
+              <h1 className="text-2xl">
+                <i className="fas fa-briefcase" />
+                Work Experience
+              </h1>
             </div>
             <div>
               <h2>Computer Technician / Queensland Education Department</h2>
-              <i className="fas fa-calendar" />
-              <h3>2015 - present</h3>
+              <h3>
+                <i className="fas fa-calendar" />
+                2015 - present
+              </h3>
               <p>
                 First Contact support, providing fault diagnostics and scripted
                 workflows for staff.
@@ -21,8 +25,10 @@ class Splash extends React.Component {
             <br />
             <div>
               <h2>Computer Technician/ Computers 4 Learning</h2>
-              <i className="fas fa-calendar" />
-              <h3>2016 - present</h3>
+              <h3>
+                <i className="fas fa-calendar" />
+                2016 - present
+              </h3>
               <p>
                 Volunteer systems Administrator, primarily working on in house
                 system and application development.
@@ -31,8 +37,10 @@ class Splash extends React.Component {
             <br />
             <div>
               <h2>Developer / Teacher in a Box</h2>
-              <i className="fas fa-calendar" />
-              <h3>some time - present</h3>
+              <h3>
+                <i className="fas fa-calendar" />
+                some time - present
+              </h3>
               <p>
                 Volunteer developer working on automation and systems software
                 to support the project.
@@ -50,14 +58,18 @@ class Splash extends React.Component {
             </div>
             <div>
               <h2>Australis College</h2>
-              <i className="fas fa-calendar" />
-              <h3>2019 - Ongoing</h3>
+              <h3>
+                <i className="fas fa-calendar" />
+                2019 - Ongoing
+              </h3>
               <p>Diploma in Software Development</p>
             </div>
             <div>
               <h2>TAFE Queensland</h2>
-              <i className="fas fa-calendar" />
-              <h3>2017 - 2017</h3>
+              <h3>
+                <i className="fas fa-calendar" />
+                2017 - 2017
+              </h3>
               <p>Certificate IV Information Technology</p>
             </div>
           </div>
