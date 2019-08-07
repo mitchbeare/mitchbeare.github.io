@@ -6,7 +6,6 @@ class AboutPanel extends React.Component {
 
   render(){
       return(
-        <div className="w-2/3 flex flex-col mx-auto">
         <div className="flex-grow mx-auto p-6 bg-white rounded-lg shadow-xl">
           <div>
             <h1 className="text-2xl">

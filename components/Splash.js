@@ -3,6 +3,8 @@ class Splash extends React.Component {
     return (
       <div className="flex px-4 py-2 w-screen">
         <AboutPanel />
+        <WorkPanel />
+        <div className="w-2/3 flex flex-col mx-auto">
           <div className="flex-grow mx-auto p-6 bg-white rounded-lg shadow-xl">
             <div>
               <h1 className="text-2xl">
