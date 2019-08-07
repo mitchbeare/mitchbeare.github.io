@@ -9,7 +9,7 @@ class AboutPanel extends React.Component {
       <div>
         <div className="relative w-full">
           <img
-            className="w-full z-0 rounded-lg"
+            className="w-full z-0 rounded-t-lg"
             src="../assets/images/Avatar.png"
             alt="avatar"
           />
@@ -20,7 +20,7 @@ class AboutPanel extends React.Component {
             Mitchell Beare
           </h1>
         </div>
-        <div className="mx-2">
+        <div className="mx-3">
           <ul>
             <li>
               <i
@@ -48,8 +48,8 @@ class AboutPanel extends React.Component {
             </li>
           </ul>
         </div>
-        <hr />
-        <div className="mx-2">
+        <hr className="mx-3" />
+        <div className="mx-3">
           <h1 className="text-2xl" style={{ color: '#95a5a6' }}>
             <i
               className="fas fa-certificate mr-2"
@@ -82,8 +82,8 @@ class AboutPanel extends React.Component {
             text="test"
           />
         </div>
-        <hr />
-        <div>
+        <hr className="mx-3" />
+        <div className="mx-3">
           <h1 className="text-2xl" style={{ color: '#95a5a6' }}>
             <i className="fas fa-globe mr-2" style={{ color: '#16a085' }} />
             Languages
