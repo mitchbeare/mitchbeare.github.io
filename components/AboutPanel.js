@@ -7,15 +7,15 @@ class AboutPanel extends React.Component {
   render() {
     return (
       <div className="max-w-3xl">
-        <div className="relative w-full">
+        <div className="relative xl:max-w-full lg:max-w-80 md:max-w-70 sm:max-w-60">
           <img
             className="w-full z-0 rounded-t-lg "
             src="../assets/images/Avatar.png"
             alt="avatar"
           />
           <h1
-            className="absolute bottom-0 left-0 text-3xl z-1 p-2 rounded-tr-lg"
-            style={{ color: '#ecf0f1', backgroundColor: '#2980b9' }}
+            className="absolute bottom-0 left-0 xl:text-3xl lg:text-2xl md:text-1xl sm:text-1xl z-1 p-2 rounded-tr-lg"
+            style={{ color: '#ecf0f1', rgba: '22, 160, 133,0.7' }}
           >
             Mitchell Beare
           </h1>
