@@ -10,7 +10,7 @@ class ProjectTile extends React.Component {
         <div className="relative flex flex-auto">
           <img
             className="static top-0 left-0 w-1/3 h-1/3"
-            href="https://via.placeholder.com/50"
+            href={this.props.imgSrc}
           ></img>
           <div className="ml-2">
             <h2>{this.props.Title}</h2>
