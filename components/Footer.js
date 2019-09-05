@@ -3,9 +3,9 @@ class Footer extends React.Component {
     return (
       <div className="w-full mx-auto" style={{ backgroundColor: '#16a085' }}>
         <header className="flex w-full mx-auto bg-orange-200 h-12 text-center py-2">
-          <button className="flex-auto">Home</button>
-          <button className="flex-auto">Projects</button>
-          <button className="flex-auto">Blog</button>
+          <a className="flex-auto">Home</a>
+          <a className="flex-auto">Projects</a>
+          <a className="flex-auto">Blog</a>
         </header>
 
         <div className="w-full p-2 text-center">
