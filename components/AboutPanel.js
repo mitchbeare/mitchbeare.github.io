@@ -64,25 +64,25 @@ class AboutPanel extends React.Component {
             skillName="Scripting"
             barColor="#1abc9c"
             fill="60%"
-            text="test"
+            text="Comfortable, Script frequently for production."
           />
           <SkillBar
             skillName="Development"
             barColor="#2ecc71"
             fill="40%"
-            text="test"
+            text="Comfortable, Have not developed in production."
           />
           <SkillBar
             skillName="Design"
             barColor="#3498db"
-            fill="35%"
-            text="test"
+            fill="30%"
+            text="Passable, Can design enough to get by."
           />
           <SkillBar
             skillName="Tech Support"
             barColor="#9b59b6"
             fill="80%"
-            text="test"
+            text="Veteran"
           />
         </div>
         <hr className="mx-3" />
@@ -95,20 +95,25 @@ class AboutPanel extends React.Component {
             skillName="Powershell"
             barColor="#1abc9c"
             fill="60%"
-            text="test"
+            text="Have built production apps."
           />
-          <SkillBar skillName="VBA" barColor="#2ecc71" fill="40%" text="test" />
+          <SkillBar
+            skillName="VBA"
+            barColor="#2ecc71"
+            fill="40%"
+            text="Have modified / maintained production apps."
+          />
           <SkillBar
             skillName="Javascript"
             barColor="#3498db"
             fill="50%"
-            text="test"
+            text="Used as a hobby language extensively."
           />
           <SkillBar
             skillName="Java"
             barColor="#9b59b6"
             fill="45%"
-            text="test"
+            text="Have Studied but never used in production."
           />
         </div>
       </div>
