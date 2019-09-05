@@ -3,8 +3,12 @@ class Footer extends React.Component {
     return (
       <div className="w-full mx-auto" style={{ backgroundColor: '#16a085' }}>
         <header className="flex w-full mx-auto bg-orange-200 h-12 text-center py-2">
-          <a className="flex-auto">Home</a>
-          <a className="flex-auto">Projects</a>
+          <a className="flex-auto" href="../index.html">
+            Home
+          </a>
+          <a className="flex-auto" href="../projects.html">
+            Projects
+          </a>
           <a className="flex-auto">Blog</a>
         </header>
 
