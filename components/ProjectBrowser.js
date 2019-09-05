@@ -4,6 +4,9 @@ class Splash extends React.Component {
       <div>
         <div>
           <ProjectTile />
+          <ProjectTile />
+          <ProjectTile />
+          <ProjectTile />
         </div>
         <Footer />
       </div>
