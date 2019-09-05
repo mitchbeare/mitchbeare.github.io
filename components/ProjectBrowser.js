@@ -2,7 +2,9 @@ class Splash extends React.Component {
   render() {
     return (
       <div>
-        <div>Hello World</div>
+        <div>
+          <ProjectTile />
+        </div>
         <Footer />
       </div>
     );
