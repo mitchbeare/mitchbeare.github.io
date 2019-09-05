@@ -1,6 +1,107 @@
-<div>
-  <h1>404 page not found.</h1>
-  <h2>
-    Either I dropped something again or you shouldn't be here, go on. Get.
-  </h2>
-</div>
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>404 Mitchell not Found</title>
+  <style>
+    * {
+      color: #dde5ed;
+      text-align: center;
+    }
+    canvas {
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>404 page not found.</h1>
+    <h2>
+      There's no universe here, Better go back:
+      <a href="projects.html">I have plenty of worlds here</a>
+    </h2>
+    <canvas id="particleBoard" height="600" width="600"> </canvas>
+  </div>
+  <script>
+    var canvas = document.getElementById('particleBoard');
+    var ctx = canvas.getContext('2d');
+    var numberOfParticles = 500;
+
+    function getRandomIntInclusive(min, max) {
+      var result;
+      var isZero = true;
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      while (isZero) {
+        result = Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive
+        if (result !== 0) {
+          isZero = false;
+        }
+      }
+
+      return result;
+    }
+
+    var particles = [];
+    for (var i = 0; i < numberOfParticles; i++) {
+      var particle = {
+        x: getRandomIntInclusive(0, canvas.width),
+        y: getRandomIntInclusive(0, canvas.height),
+        velocityX: getRandomIntInclusive(-1, 1),
+        velocityY: getRandomIntInclusive(-1, 1),
+        size: 1,
+        colour: `rgba(
+          ${getRandomIntInclusive(0, 255)},
+          ${getRandomIntInclusive(0, 255)},
+          ${getRandomIntInclusive(0, 255)})`,
+        update() {
+          this.collisionDetection();
+          this.x = this.x + this.velocityX;
+          this.y = this.y + this.velocityY;
+        },
+        draw() {
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+          ctx.fillStyle = this.colour;
+          ctx.fill();
+          ctx.closePath();
+        },
+        collisionDetection() {
+          if (
+            this.x + this.velocityX > canvas.width - this.size ||
+            this.x + this.velocityX < this.size
+          ) {
+            this.velocityX = -this.velocityX;
+          }
+          if (
+            this.y + this.velocityY > canvas.height - this.size ||
+            this.y + this.velocityY < this.size
+          ) {
+            this.velocityY = -this.velocityY;
+          }
+        }
+      };
+      particles.push(particle);
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = '#273746';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      particles.map(p => {
+        p.update();
+        p.draw();
+      });
+
+      requestAnimationFrame(draw);
+    }
+
+    draw();
+  </script>
+</body>
