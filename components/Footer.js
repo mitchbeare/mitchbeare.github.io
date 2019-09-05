@@ -2,10 +2,10 @@ class Footer extends React.Component {
   render() {
     return (
       <div className="w-full mx-auto" style={{ backgroundColor: '#16a085' }}>
-        <header>
-          <div>
-            <p>Lets see what mess this makes.</p>
-          </div>
+        <header className="flex w-full mx-auto">
+          <button>Home</button>
+          <button>Projects</button>
+          <button>Blog</button>
         </header>
 
         <div className="w-full p-2 text-center">
