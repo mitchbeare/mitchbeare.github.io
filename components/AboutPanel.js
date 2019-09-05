@@ -17,7 +17,7 @@ class AboutPanel extends React.Component {
             className="absolute bottom-0 left-0 xl:text-3xl lg:text-2xl md:text-1xl sm:text-1xl z-1 p-2 rounded-tr-lg"
             style={{
               color: '#ecf0f1',
-              backgroundColor: `rgba(255,255,255,0.7)`
+              backgroundColor: `rgba(22,160,133,0.75)`
             }}
           >
             Mitchell Beare
