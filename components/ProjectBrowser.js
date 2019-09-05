@@ -16,26 +16,18 @@ class Splash extends React.Component {
               Title="Project 3"
               imgSrc="https://via.placeholder.com/30/"
             />
+          </div>
+          <div className="flex my-10">
             <ProjectTile
               Title="Project 4"
               imgSrc="https://via.placeholder.com/30/"
             />
-          </div>
-          <div>
             <ProjectTile
               Title="Project 5"
               imgSrc="https://via.placeholder.com/30/"
             />
             <ProjectTile
               Title="Project 6"
-              imgSrc="https://via.placeholder.com/30/"
-            />
-            <ProjectTile
-              Title="Project 7"
-              imgSrc="https://via.placeholder.com/30/"
-            />
-            <ProjectTile
-              Title="Project 8"
               imgSrc="https://via.placeholder.com/30/"
             />
           </div>
