@@ -6,16 +6,16 @@ class ProjectTile extends React.Component {
 
   render() {
     return (
-      <div className="flex flex-col bg-white rounded-lg p-6 w-1/3 h-64 mx-10">
-        <div className="flex flex-auto">
+      <div className="flex flex-col bg-white rounded-lg p-6 w-full h-64 mx-10">
+        <div className="relative flex flex-auto">
           <img
-            className="h-16 w-15 md:h-24 md:w-24 rounded-full mx-auto"
+            className="static top-0 left-0 w-1/3 h-1/3"
             href="https://via.placeholder.com/50"
           ></img>
-          <div>
-            <h3>{this.props.Title}</h3>
+          <div className="ml-2">
+            <h2>{this.props.Title}</h2>
+            <p>Tags</p>
           </div>
-          <div>Tags</div>
         </div>
         <div className="flex-auto">
           <p>A Blurb about the project here</p>
