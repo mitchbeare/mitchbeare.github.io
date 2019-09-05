@@ -3,7 +3,10 @@ class ProjectTile extends React.Component {
     return (
       <div className="flex flex-col bg-white rounded-lg p-6 w-1/3 h-64">
         <div className="flex flex-auto">
-          <img className="h-16 w-15 md:h-24 md:w-24 rounded-full mx-auto"></img>
+          <img
+            className="h-16 w-15 md:h-24 md:w-24 rounded-full mx-auto"
+            href="https://via.placeholder.com/50"
+          ></img>
           <div>Title</div>
           <div>Tags</div>
         </div>
