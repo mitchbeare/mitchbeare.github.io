@@ -10,7 +10,7 @@ class SoundButton extends React.Component {
   }
 
   render() {
-    returns(
+    return (
       <div className="flex-auto">
         <button
           className="bg-gray-500 font-bold py-2 px-4"

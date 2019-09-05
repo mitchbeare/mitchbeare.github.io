@@ -1,4 +1,4 @@
-class Splash extends React.Component {
+class ProjectBrowser extends React.Component {
   render() {
     return (
       <div>
@@ -38,4 +38,4 @@ class Splash extends React.Component {
   }
 }
 
-ReactDOM.render(<Splash />, document.getElementById('root'));
+ReactDOM.render(<ProjectBrowser />, document.getElementById('root'));
