@@ -3,12 +3,6 @@ class GameBoard extends React.Component {
     super(props);
     this.state = {
       divStyle: {
-        position: absolute,
-        top: 0,
-        left: 0,
-        height: 100,
-        width: 100,
-        ZIndex: -1,
         backgroundImage: `url('https://mitchellbeare.info/DanaDBay/assets/Background.jpg')`
       }
     };
@@ -19,7 +13,10 @@ class GameBoard extends React.Component {
       <div className="bg-fixed" style={this.state.divStyle}>
         <h2>DM's Control Board</h2>
         <div id="SoundBoard" className="flex bg-gray-200">
-          <SoundButton text="Morse Code" audioFile="url('https://mitchellbeare.info/DanaDBay/assets/Background.jpg')"/>
+          <SoundButton
+            text="Morse Code"
+            audioFile="url('https://mitchellbeare.info/DanaDBay/assets/Background.jpg')"
+          />
         </div>
       </div>
     );
