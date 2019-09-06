@@ -10,7 +10,7 @@ class GameBoard extends React.Component {
 
   render() {
     return (
-      <div className="bg-fixed" style={this.state.divStyle}>
+      <div className="background" style={this.state.divStyle}>
         <h2>DM's Control Board</h2>
         <div id="SoundBoard" className="flex bg-gray-200">
           <SoundButton
