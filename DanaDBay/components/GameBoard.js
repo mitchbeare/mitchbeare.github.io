@@ -3,7 +3,7 @@ class GameBoard extends React.Component {
     super(props);
     this.state = {
       divStyle: {
-        backgroundImage: `url('../assets/Background.jpg')`
+        backgroundImage: `url('https://mitchellbeare.info/DanaDBay/assets/Background.jpg')`
       }
     };
   }
