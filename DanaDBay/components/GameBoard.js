@@ -19,7 +19,7 @@ class GameBoard extends React.Component {
       <div className="bg-fixed" style={this.state.divStyle}>
         <h2>DM's Control Board</h2>
         <div id="SoundBoard" className="flex bg-gray-200">
-          <SoundButton text="Morse Code" />
+          <SoundButton text="Morse Code" audioFile="url('https://mitchellbeare.info/DanaDBay/assets/Background.jpg')"/>
         </div>
       </div>
     );
