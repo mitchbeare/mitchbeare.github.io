@@ -13,6 +13,38 @@ class WorkPanel extends React.Component {
             Work Experience
           </h1>
         </div>
+           <div>
+          <h2>
+            Web Support Officer /{' '}
+            <a href="http://teacherinabox.org.au/">Queensland Deparment of Education Information Technology Branch</a>
+          </h2>
+          <h3>
+            <i className="fas fa-calendar mr-2" style={{ color: '#16a085' }} />
+            2020 - present
+          </h3>
+          <p>
+            Volunteer developer working on automation and systems software to
+            support the project.
+          </p>
+        </div>
+        <hr />
+        <br />
+      <div>
+          <h2>
+            Developer /{' '}
+            <a href="http://teacherinabox.org.au/">Teacher in a Box</a>
+          </h2>
+          <h3>
+            <i className="fas fa-calendar mr-2" style={{ color: '#16a085' }} />
+            2018 - present
+          </h3>
+          <p>
+            Volunteer developer working on automation and systems software to
+            support the project.
+          </p>
+        </div>
+        <hr />
+        <br />
         <div>
           <h2>
             School Computer Technician /{' '}
@@ -47,20 +79,7 @@ class WorkPanel extends React.Component {
         </div>
         <hr />
         <br />
-        <div>
-          <h2>
-            Developer /{' '}
-            <a href="http://teacherinabox.org.au/">Teacher in a Box</a>
-          </h2>
-          <h3>
-            <i className="fas fa-calendar mr-2" style={{ color: '#16a085' }} />
-            2018 - present
-          </h3>
-          <p>
-            Volunteer developer working on automation and systems software to
-            support the project.
-          </p>
-        </div>
+        
       </div>
     );
   }
