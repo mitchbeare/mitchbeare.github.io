@@ -16,7 +16,7 @@ class WorkPanel extends React.Component {
            <div>
           <h2>
             Web Support Officer /{' '}
-            <a href="http://teacherinabox.org.au/">Queensland Deparment of Education Information Technology Branch</a>
+            <a href="http://teacherinabox.org.au/">Queensland Deparment of Education - Information Technology Branch</a>
           </h2>
           <h3>
             <i className="fas fa-calendar mr-2" style={{ color: '#16a085' }} />
@@ -48,7 +48,7 @@ class WorkPanel extends React.Component {
           <h2>
             School Computer Technician /{' '}
             <a href="https://education.qld.gov.au/">
-              Queensland Education Department
+              Queensland Education Department - Public Schools
             </a>
           </h2>
           <h3>
