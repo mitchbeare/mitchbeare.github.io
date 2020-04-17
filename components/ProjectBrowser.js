@@ -3,7 +3,7 @@ class ProjectBrowser extends React.Component {
     super(props)
     this.state = {
       tiles = [
-        {title: "Portfolio Website", imgSrc: "https://via.placeholder.com/30/", }
+        {title: "Portfolio Website", imgSrc: "https://via.placeholder.com/30/" }
       ]
     }
   }
