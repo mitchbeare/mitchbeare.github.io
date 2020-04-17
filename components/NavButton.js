@@ -1,26 +1,23 @@
 class NavButton extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { isHover: false, style: 'underlined' };
+    this.state = { isHovered: false,
+                  style: 'underlined' };
+    this.handleHover = this.handleHover.bind(this)
   }
 
-  handleMouseHover = event => {
-    this.setState(this.toggleHoverState);
-  };
-
-  toggleHoverState = () => {
-    return {
-      isHovering: !this.state.isHovering,
-      style: 'text-red-700'
-    };
+  handleHover = event => {
+    this.setState({prevState => ({
+      isHovered: !this.state.isHovered
+    }));
   };
 
   render() {
     return (
       <div
         className="flex-auto"
-        onMouseEnter={this.handleMouseHover}
-        onMouseLeave={this.handleMouseHover}
+        onMouseEnter={this.handleHover}
+        onMouseLeave={this.handleHover}
       >
         <a className={this.state.style} href={this.props.ref}>
           {this.props.text}
