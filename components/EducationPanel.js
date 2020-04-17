@@ -15,7 +15,15 @@ class EducationPanel extends React.Component {
             />
             Education
           </h1>
+        </div><div>
+          <h2>University of Queensland</h2>
+          <h3>
+            <i className="fas fa-calendar mr-2" style={{ color: '#16a085' }} />
+            2020 - Ongoing
+          </h3>
+          <p>Bachelor of Computer Science</p>
         </div>
+        <hr />
         <div>
           <h2>Australis College</h2>
           <h3>
