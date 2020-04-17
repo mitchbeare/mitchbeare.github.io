@@ -7,9 +7,9 @@ class Footer extends React.Component {
     return (
       <div className="w-full mx-auto" style={{ backgroundColor: '#16a085' }}>
         <header className="flex w-full mx-auto bg-orange-200 h-12 text-center py-2">
-          <NavButton ref="../index.html" text="Home" />
-          <NavButton ref="../projects.html" text="Projects" />
-          <NavButton ref="../blog.html" text="Blog" />
+          <NavButton link="../index.html" text="Home" />
+          <NavButton link="../projects.html" text="Projects" />
+          <NavButton link="../blog.html" text="Blog" />
         </header>
 
         <div className="w-full p-2 text-center">
