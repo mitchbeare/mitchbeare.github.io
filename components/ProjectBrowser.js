@@ -1,11 +1,20 @@
 class ProjectBrowser extends React.Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      tiles = [
+        {title: "Portfolio Website", imgSrc: "https://via.placeholder.com/30/", }
+      ]
+    }
+  }
+  
   render() {
     return (
       <div>
         <div className="flex flex-col">
           <div className="flex my-10">
             <ProjectTile
-              Title="Project 1"
+              Title="Portfolio Website"
               imgSrc="https://via.placeholder.com/30/"
             />
             <ProjectTile
