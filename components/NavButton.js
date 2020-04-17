@@ -7,10 +7,10 @@ class NavButton extends React.Component {
   }
 
   handleHover = event => {
-    this.setState({prevState => ({
-      isHovered: !this.state.isHovered
+    this.setState(prevState => ({
+      isHovered: !prevState.isHovered
     }));
-  };
+  }
 
   render() {
     return (
