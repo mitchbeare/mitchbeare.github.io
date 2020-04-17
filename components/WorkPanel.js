@@ -23,8 +23,7 @@ class WorkPanel extends React.Component {
             2020 - present
           </h3>
           <p>
-            Volunteer developer working on automation and systems software to
-            support the project.
+            Website support officer on the websites for schools project. Providing front line Quality Assurance testing and website support.
           </p>
         </div>
         <hr />
