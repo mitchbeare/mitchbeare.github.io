@@ -22,7 +22,7 @@ class WorkPanel extends React.Component {
           </h2>
           <h3>
             <i className="fas fa-calendar mr-2" style={{ color: '#16a085' }} />
-            2015 - present
+            2015 - 2020
           </h3>
           <p>
             First Contact support, providing fault diagnostics and scripted
@@ -33,12 +33,12 @@ class WorkPanel extends React.Component {
         <br />
         <div>
           <h2>
-            Computer Technician/{' '}
+            Computer Technician /{' '}
             <a href="http://computers4learning.org.au/">Computers 4 Learning</a>
           </h2>
           <h3>
             <i className="fas fa-calendar mr-2" style={{ color: '#16a085' }} />
-            2016 - present
+            2016 - 2019
           </h3>
           <p>
             Volunteer systems Administrator, primarily working on in house
