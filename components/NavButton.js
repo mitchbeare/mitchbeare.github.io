@@ -19,7 +19,7 @@ class NavButton extends React.Component {
         onMouseEnter={this.handleHover}
         onMouseLeave={this.handleHover}
       >
-        <a className={this.state.style} href={this.props.ref}>
+        <a className={this.state.style} href={this.props.link}>
           {this.props.text}
         </a>
       </div>
