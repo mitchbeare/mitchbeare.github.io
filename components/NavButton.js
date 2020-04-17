@@ -1,15 +1,9 @@
 class NavButton extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { isHovered: false,
-                  style: 'hover:bg-blue-700' };
-    this.handleHover = this.handleHover.bind(this)
-  }
-
-  handleHover = event => {
-    this.setState(prevState => ({
-      isHovered: !prevState.isHovered
-    }));
+    this.state = { 
+      style: 'hover:underline'
+    };
   }
 
   render() {
